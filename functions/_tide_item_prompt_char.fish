@@ -8,15 +8,6 @@ function _tide_item_prompt_char
     if test "$fish_key_bindings" = 'fish_default_key_bindings'
         printf '%s' $tide_prompt_char_icon' '
     else
-        switch $fish_bind_mode
-            case default
-                printf '%s' $tide_prompt_char_vi_default_icon' '
-            case insert
-                printf '%s' $tide_prompt_char_vi_insert_icon' '
-            case replace replace_one
-                printf '%s' $tide_prompt_char_vi_replace_icon' '
-            case visual
-                printf '%s' $tide_prompt_char_vi_visual_icon' '
-        end
+        iconName=tide_prompt_char_vi_"$fish_bind_mode"_icon printf '%s' $$iconName' '
     end
 end
