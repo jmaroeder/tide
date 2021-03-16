@@ -15,6 +15,8 @@ tide_git_untracked_color black
 tide_git_upstream_color black
 tide_jobs_bg_color brblack
 tide_jobs_color green
+tide_kubectl_bg_color magenta
+tide_kubectl_color black
 tide_left_prompt_frame_color brblack
 tide_left_prompt_item_separator_same_color_color brblack
 tide_nvm_bg_color magenta

@@ -20,6 +20,9 @@ tide_git_upstream_color $_tide_color_green
 tide_jobs_bg_color normal
 tide_jobs_color $_tide_color_dark_green
 tide_jobs_icon ''
+tide_kubectl_bg_color normal
+tide_kubectl_color A8BDD3
+tide_kubectl_icon 'ﴱ'
 tide_left_prompt_frame_color 6C6C6C
 tide_left_prompt_frame_enabled false
 tide_left_prompt_item_separator_diff_color ' '
